@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, url_for, flash, request, redirect
 from werkzeug.utils import secure_filename
 
-UPLOAD_FOLDER = '/Users/Hiro_hankamura/Desktop/HomeProjects/BrusselsAirport/BrusselsAirportBackend/images'
+UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
