@@ -1,10 +1,11 @@
 import os
 from flask import Flask, render_template, url_for, flash, request, redirect
 from werkzeug.utils import secure_filename
-
+from flask_cors import CORS
 UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 
 app = Flask(__name__)
+CORS(app)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SECRET_KEY'] = 'pXuUdktb5IAHe_xbzqEiCA'
 
