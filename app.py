@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, url_for, flash, request, redirect
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
-from label_detection import detect_objects
+from object_detection import detect_objects
 
 UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 

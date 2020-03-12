@@ -19,15 +19,10 @@ def detect_objects(filename):
     with io.open(file_name, 'rb') as image_file:
         content = image_file.read()
 
-    image = types.Image(content=content)
+    image = vision.types.Image(content=content)
 
-    # Performs label detection on the image file
-    response = client.label_detection(image=image)
-    labels = response.label_annotations
+    objects = client.object_localization(
+        image=image).localized_object_annotations
 
-    with open('labels.txt', 'w') as outfile:
-        outfile.write(str(labels))
-
-    print('Labels:')
-    for label in labels:
-        print(label.description)
+    with open('detected_objects.txt', 'w') as outfile:
+        outfile.write(str(objects))
