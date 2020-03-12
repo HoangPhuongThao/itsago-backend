@@ -2,6 +2,8 @@ import os
 from flask import Flask, render_template, url_for, flash, request, redirect
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
+from label_detection import detect_objects
+
 UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 
 app = Flask(__name__)
@@ -31,6 +33,7 @@ def upload_image():
             filename = secure_filename(file.filename)
             flash('file {} saved'.format(file.filename))
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            detect_objects(filename)
             return redirect(url_for('upload_image'))
     return render_template('upload_image.html')
 
