@@ -34,7 +34,7 @@ def upload_image():
             filename = secure_filename(file.filename)
             flash('file {} saved'.format(file.filename))
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            # detect_objects(filename)
+            detect_objects(filename)
             response = parse_objectname()
             return jsonify(response)
             # return redirect(url_for('upload_image'))
