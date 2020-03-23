@@ -34,11 +34,18 @@ def upload_image():
             filename = secure_filename(file.filename)
             flash('file {} saved'.format(file.filename))
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            detect_objects(filename)
+            # detect_objects(filename)
             response = parse_objectname()
             return jsonify(response)
             # return redirect(url_for('upload_image'))
     return render_template('upload_image.html')
+
+@app.route('/search', methods=['POST','GET'])
+def search():
+  if request.method == 'POST':
+     text = request.form['input']
+     return text
+  return render_template('search.html')
 
 def parse_objectname():
     api_response = open("detected_objects.txt", "r")
