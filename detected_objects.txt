@@ -1,0 +1,43 @@
+[mid: "/m/01b7fy"
+name: "Headphones"
+score: 0.759992241859436
+bounding_poly {
+  normalized_vertices {
+    x: 0.15447138249874115
+    y: 0.31633883714675903
+  }
+  normalized_vertices {
+    x: 0.5150008797645569
+    y: 0.31633883714675903
+  }
+  normalized_vertices {
+    x: 0.5150008797645569
+    y: 0.9312018752098083
+  }
+  normalized_vertices {
+    x: 0.15447138249874115
+    y: 0.9312018752098083
+  }
+}
+, mid: "/m/01g317"
+name: "Person"
+score: 0.5559244155883789
+bounding_poly {
+  normalized_vertices {
+    x: 0.1561102420091629
+    y: 0.31943318247795105
+  }
+  normalized_vertices {
+    x: 0.5365996956825256
+    y: 0.31943318247795105
+  }
+  normalized_vertices {
+    x: 0.5365996956825256
+    y: 0.970641016960144
+  }
+  normalized_vertices {
+    x: 0.1561102420091629
+    y: 0.970641016960144
+  }
+}
+]

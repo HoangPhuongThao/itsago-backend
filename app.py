@@ -1,5 +1,6 @@
 import os
-from flask import Flask, render_template, url_for, flash, request, redirect
+import re
+from flask import Flask, render_template, url_for, flash, request, redirect, jsonify
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
 from object_detection import detect_objects
@@ -33,9 +34,29 @@ def upload_image():
             filename = secure_filename(file.filename)
             flash('file {} saved'.format(file.filename))
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            detect_objects(filename)
-            return redirect(url_for('upload_image'))
+            # detect_objects(filename)
+            response = parse_objectname()
+            return jsonify(response)
+            # return redirect(url_for('upload_image'))
     return render_template('upload_image.html')
+
+def parse_objectname():
+    api_response = open("detected_objects.txt", "r")
+    lines = api_response.readlines()
+    objects = []; scores = []; response = []
+    for line in lines:
+        if "name" in line:
+            object = re.search(r'"(.*?)"', line.split("name: ")[1]).group(1)
+            objects.append(object)
+        elif "score" in line:
+            scores.append(re.match(r'score: (\d+(\.\d+)?)', line).group(1))
+    api_response.close()
+    for i in range(len(objects)):
+        response.append({
+            "name": objects[i],
+            "score": scores[i]
+        })
+    return response
 
 if __name__ == '__main__':
     app.run(debug=True)
