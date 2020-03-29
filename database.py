@@ -14,6 +14,10 @@ def get(name):
     c.execute("SELECT * FROM items WHERE name=:name", {'name': name})
     return c.fetchall()
 
+def get_all(): # TODO: parameter: char .... select all the items starting with char/str
+    c.execute("SELECT name FROM items")
+    return c.fetchall()
+
 def remove(item):
     with conn:
         c.execute("DELETE from items WHERE name = :name", {'name': item['name']})
@@ -35,5 +39,8 @@ def remove(item):
 # c.execute("SELECT * FROM items")
 # results = c.fetchall()
 # print(len(results))
+
+items = get_all()
+print(items)
 
 conn.close()

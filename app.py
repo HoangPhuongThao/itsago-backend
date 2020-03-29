@@ -40,11 +40,11 @@ def upload_image():
             # return redirect(url_for('upload_image'))
     return render_template('upload_image.html')
 
-@app.route('/search', methods=['POST','GET'])
-def search():
+@app.route('/searchbar', methods=['POST','GET'])
+def searchbar():
   if request.method == 'POST':
-     text = request.form['input']
-     return text
+      input = request.form['text']
+      print(input)
   return render_template('search.html')
 
 def parse_objectname():
