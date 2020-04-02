@@ -43,16 +43,14 @@ def upload_image():
 
 @app.route('/searchbar', methods=['POST','GET'])
 def searchbar():
-    if request.method == 'POST':
-        input = request.form['text']
-        print(input)
-        print(match(input))
-    return render_template('search.html')
+    if request.method == 'GET':
+        input = request.args.get('text')
+    return match(input)
 
 @app.route('/suggest', methods=['POST','GET'])
 def suggest():
-    if request.method == 'POST':
-        substring = request.form['text']
+    if request.method == 'GET':
+        substring = request.args.get('text')
         suggestions = match(substring)
         return suggestions
 
