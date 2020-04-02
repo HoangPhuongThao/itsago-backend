@@ -4,6 +4,7 @@ from flask import Flask, render_template, url_for, flash, request, redirect, jso
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
 from object_detection import detect_objects
+from database import match, get_all
 
 UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 
@@ -42,10 +43,18 @@ def upload_image():
 
 @app.route('/searchbar', methods=['POST','GET'])
 def searchbar():
-  if request.method == 'POST':
-      input = request.form['text']
-      print(input)
-  return render_template('search.html')
+    if request.method == 'POST':
+        input = request.form['text']
+        print(input)
+        print(match(input))
+    return render_template('search.html')
+
+@app.route('/suggest', methods=['POST','GET'])
+def suggest():
+    if request.method == 'POST':
+        substring = request.form['text']
+        suggestions = match(substring)
+        return suggestions
 
 def parse_objectname():
     api_response = open("detected_objects.txt", "r")

@@ -1,24 +1,43 @@
 import sqlite3
 import csv
-
-conn = sqlite3.connect('items.db')
-
-c = conn.cursor()
+import json
 
 def insert(item):
+    conn = sqlite3.connect('items.db')
+    c = conn.cursor()
     with conn:
         c.execute("INSERT INTO items VALUES (:name, :classification, :info)",
                   {'name': item['name'], 'classification': item['classification'], 'info': item['info']})
 
-def get(name):
-    c.execute("SELECT * FROM items WHERE name=:name", {'name': name})
-    return c.fetchall()
-
-def get_all(): # TODO: parameter: char .... select all the items starting with char/str
+# This function is implemented to get a list of suggestions for search bar
+def get_all():
+    conn = sqlite3.connect('items.db')
+    c = conn.cursor()
     c.execute("SELECT name FROM items")
-    return c.fetchall()
+    data = c.fetchall(); results = []
+    for item in data:
+        results.append(item[0])
+    return json.dumps(results)
+
+def match(substring):
+    conn = sqlite3.connect('items.db')
+    c = conn.cursor()
+    c.execute("SELECT * FROM items WHERE name LIKE '%{}%'".format(substring))
+    matched_items = c.fetchall()
+    results = []
+    if len(matched_items) != 0:
+        for data in matched_items:
+            item = {
+                'name': data[0],
+                'classification': data[1],
+                'info': data[2]
+            }
+            results.append(item)
+    return json.dumps(results)
 
 def remove(item):
+    conn = sqlite3.connect('items.db')
+    c = conn.cursor()
     with conn:
         c.execute("DELETE from items WHERE name = :name", {'name': item['name']})
 
@@ -34,13 +53,4 @@ def remove(item):
 #         }
 #         insert(new_item)
 
-# Checking number of items in db
-#
-# c.execute("SELECT * FROM items")
-# results = c.fetchall()
-# print(len(results))
-
-items = get_all()
-print(items)
-
-conn.close()
+# conn.close()
