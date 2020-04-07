@@ -5,6 +5,7 @@ from werkzeug.utils import secure_filename
 from flask_cors import CORS
 from object_detection import detect_objects
 from database import match, get_all
+from synonyms import get_synonyms
 
 UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 

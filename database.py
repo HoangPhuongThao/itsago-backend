@@ -41,10 +41,11 @@ def remove(item):
     with conn:
         c.execute("DELETE from items WHERE name = :name", {'name': item['name']})
 
+
 # Importing items from csv file
 #
-# with open('list_of_items.csv') as csv_file:
-#     csv_reader = csv.reader(csv_file, delimiter=',')
+# with open('list_of_items.csv', 'r+', encoding="utf-8") as csv_file:
+#     csv_reader = csv.reader(csv_file, delimiter=',', quotechar='"')
 #     for row in csv_reader:
 #         new_item = {
 #             'name': row[0],
@@ -53,4 +54,3 @@ def remove(item):
 #         }
 #         insert(new_item)
 
-# conn.close()
