@@ -30,7 +30,12 @@ def find_syns_db(syns):
         if len(match(syn)) > 0:
             return match(syn)
 
+def check_similarity(word1, word2):
+    w1 = wordnet.synset(word1, '.n.01')
+    w2 = wordnet.synset(word2, '.n.01')
+    print(w1.wup_similarity(w2))
+
 if __name__ == '__main__':
-    syns = get_synonyms("gun")
+    syns = get_synonyms("bottle")
     print(syns)
     print(find_syns_db(syns))

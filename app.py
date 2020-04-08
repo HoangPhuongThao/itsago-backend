@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 from flask_cors import CORS
 from object_detection import detect_objects
 from database import match, get_all
-from synonyms import get_synonyms
+from synonyms import get_synonyms, find_syns_db
 
 UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 
@@ -36,7 +36,7 @@ def upload_image():
             filename = secure_filename(file.filename)
             flash('file {} saved'.format(file.filename))
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            # detect_objects(filename)
+            detect_objects(filename)
             response = parse_objectname()
             return jsonify(response)
             # return redirect(url_for('upload_image'))
@@ -46,7 +46,8 @@ def upload_image():
 def searchbar():
     if request.method == 'GET':
         input = request.args.get('text')
-    return match(input)
+        syns = get_synonyms(input)
+    return find_syns_db(syns)
 
 @app.route('/suggest', methods=['POST','GET'])
 def suggest():
