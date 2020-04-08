@@ -19,10 +19,13 @@ def get_all():
         results.append(item[0])
     return json.dumps(results)
 
-def match(substring):
+def match(substring, only_start = False):
     conn = sqlite3.connect('items.db')
     c = conn.cursor()
-    c.execute("SELECT * FROM items WHERE name LIKE '%{}%'".format(substring))
+    if only_start:
+        c.execute("SELECT * FROM items WHERE name LIKE '{}%'".format(substring))
+    else:
+        c.execute("SELECT * FROM items WHERE name LIKE '%{}%'".format(substring))
     matched_items = c.fetchall()
     results = []
     if len(matched_items) != 0:
@@ -34,6 +37,7 @@ def match(substring):
             }
             results.append(item)
     return json.dumps(results)
+
 
 def remove(item):
     conn = sqlite3.connect('items.db')

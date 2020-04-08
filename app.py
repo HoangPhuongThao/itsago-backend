@@ -53,7 +53,7 @@ def searchbar():
 def suggest():
     if request.method == 'GET':
         substring = request.args.get('text')
-        suggestions = match(substring)
+        suggestions = match(substring, only_start=True) # only match words starting with the substring
         return suggestions
 
 def parse_objectname():
