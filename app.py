@@ -14,7 +14,11 @@ CORS(app)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SECRET_KEY'] = 'pXuUdktb5IAHe_xbzqEiCA'
 
-@app.route("/")
+@app.route("api/")
+def hello():
+ return '<h1> Hello World </h1>'
+
+
 @app.route("/home")
 def home():
     return render_template('home.html')
@@ -75,4 +79,4 @@ def parse_objectname():
     return response
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(debug=True)
