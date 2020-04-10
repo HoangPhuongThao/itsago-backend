@@ -14,12 +14,12 @@ CORS(app)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SECRET_KEY'] = 'pXuUdktb5IAHe_xbzqEiCA'
 
-@app.route("/")
-@app.route("/home")
+@app.route("/api/")
+@app.route("/api/home")
 def home():
     return render_template('home.html')
 
-@app.route("/upload_image", methods=['GET', 'POST'])
+@app.route("/api/upload_image", methods=['GET', 'POST'])
 def upload_image():
     if request.method == 'POST':
         # check if the post request has the file part
@@ -42,14 +42,14 @@ def upload_image():
             # return redirect(url_for('upload_image'))
     return render_template('upload_image.html')
 
-@app.route('/searchbar', methods=['POST','GET'])
+@app.route('/api/searchbar', methods=['POST','GET'])
 def searchbar():
     if request.method == 'GET':
         input = request.args.get('text')
         syns = get_synonyms(input)
     return find_syns_db(syns)
 
-@app.route('/suggest', methods=['POST','GET'])
+@app.route('/api/suggest', methods=['POST','GET'])
 def suggest():
     if request.method == 'GET':
         substring = request.args.get('text')
