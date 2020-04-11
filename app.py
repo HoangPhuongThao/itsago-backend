@@ -23,7 +23,7 @@ def hello():
 
 @app.route("/home")
 @app.route("/api/test")
-def hello():
+def nothing():
     response = ["nothing found"]
     return jsonify(response)
 
