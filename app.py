@@ -1,5 +1,7 @@
 import os
 import re
+import string
+import random
 from flask import Flask, render_template, url_for, flash, request, redirect, jsonify
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
@@ -33,13 +35,13 @@ def upload_image():
             flash('No selected file')
             return redirect(request.url)
         if file and file.filename.endswith(('.png', '.jpg', '.jpeg')):
-            filename = secure_filename(file.filename)
-            flash('file {} saved'.format(file.filename))
+            filename = random_generator() + os.path.splitext(file.filename)[1]
+            flash('file {} saved'.format(filename))
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             detect_objects(filename)
+            os.remove(os.path.abspath('images/' + filename))
             response = parse_objectname()
             return jsonify(response)
-            # return redirect(url_for('upload_image'))
     return render_template('upload_image.html')
 
 @app.route('/searchbar', methods=['POST','GET'])
@@ -73,6 +75,9 @@ def parse_objectname():
             "score": scores[i]
         })
     return response
+
+def random_generator(size=10, chars=string.ascii_lowercase + string.digits):
+    return ''.join(random.choice(chars) for _ in range(size))
 
 if __name__ == '__main__':
     app.run(debug=True)
