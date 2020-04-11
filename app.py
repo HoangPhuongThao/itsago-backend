@@ -16,7 +16,12 @@ CORS(app)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SECRET_KEY'] = 'pXuUdktb5IAHe_xbzqEiCA'
 
-@app.route("/api/")
+@app.route("/api/test")
+def hello():
+    response = ["nothing found"]
+    return jsonify(response)
+
+
 @app.route("/api/home")
 def home():
     return render_template('home.html')
