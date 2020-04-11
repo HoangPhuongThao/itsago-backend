@@ -39,11 +39,11 @@ def match(substring, only_start = False):
     return json.dumps(results)
 
 
-def remove(item):
+def remove(item_name):
     conn = sqlite3.connect('items.db')
     c = conn.cursor()
     with conn:
-        c.execute("DELETE from items WHERE name = :name", {'name': item['name']})
+        c.execute("DELETE from items WHERE name = :name", {'name': item_name})
 
 
 # Importing items from csv file
