@@ -1,528 +1,713 @@
-cash,allowed,
-blank checkbook,allowed,
-ring,allowed,
-precious stone,allowed,
-silver,allowed,
-necklace,allowed,
-cell phone,allowed,
-earphone,allowed,
-identification document,allowed,
-key,allowed,
-eyeglasses,allowed,
-sunglasses,allowed,
 art,allowed,
-business document,allowed,
-manuscript,allowed,
-heirloom,allowed,
-collectible item,allowed,
-toy,allowed,
-usb flash drive,allowed,
-hearing aid,allowed,
-digital watch,allowed,
-handheld game,allowed,
-hair straightner,allowed,
-shoe,allowed,
-clothes,allowed,
-chips,allowed,
-cooling gel pack,allowed,
-umbrella,allowed,
+baby formula,allowed,
+baby powder,allowed,
+baby powder,allowed,
+baby wipes,allowed,
+baby wipes,allowed,
+backpack rain cover,allowed,
+ball,allowed,
+band aid,allowed,
+bandages,allowed,
+bandana,allowed,
 belt,allowed,
-sweater,allowed,
-bicycle chain,allowed,
 binoculars,allowed,
 blanket,allowed,
 bobby pin,allowed,
 book,allowed,
+boots,allowed,
 bottle opener,allowed,
+bra,allowed,
 bread,allowed,
-curling iron,allowed,
-camera monopod,allowed,
+brush,allowed,
+cake,allowed,
 candy,allowed,
+cards,allowed,
+cash,allowed,
+cell phone,allowed,
 cereal,allowed,
 chapstick,allowed,
+chequebook,allowed,
+chewing gum ,allowed,
+chips,allowed,
 chocolate,allowed,
 christmas lights,allowed,
-cigarette,allowed,
 cigar,allowed,
-clock,allowed,
+cigarette,allowed,
+clothes,allowed,
 coffee beans,allowed,
 coffee powder,allowed,
-lip pencil,allowed,
+comb ,allowed,
+compass,allowed,
+compression bandages,allowed,
+condoms ,allowed,
 contact lenses,allowed,
+contraceptive pills,allowed,
 cooked food,allowed,
 cookie,allowed,
-cremated remains,allowed,
+cooling gel pack,allowed,
+cotton buds,allowed,
+cotton handkerchief,allowed,
+credit card,allowed,
+curling iron,allowed,
+dental floss ,allowed,
+diary,allowed,
+dictionary,allowed,
+digital watch,allowed,
 disinfecting wipes,allowed,
+document,allowed,
+dress,allowed,
+dress shirt,allowed,
 dried fruit,allowed,
+driving license,allowed,
 dry cell battery,allowed,
+dry spices,allowed,
 duct tape,allowed,
+earphone,allowed,
+earplugs,allowed,
 electronic toothbrush,allowed,
 empty water bottle,allowed,
+eye-mask,allowed,
+eyeglasses,allowed,
+feminine pad,allowed,
 fidget spinner,allowed,
 film,allowed,
+fleece,allowed,
 flower,allowed,
-fork,allowed,
+frisbee,allowed,
 frozen food,allowed,
-fresh fruit,allowed,
-fresh vegetable,allowed,
-glass,allowed,
-glass picture frame,allowed,
+fruit,allowed,
+gazes,allowed,
+gloves,allowed,
 glow stick,allowed,
+goggles,allowed,
 golf tee,allowed,
+guidebooks,allowed,
 gum,allowed,
+hackey sack,allowed,
 hair clipper,allowed,
+hair straightner,allowed,
 hand warmer,allowed,
+handheld game,allowed,
+handkerchief,allowed,
+hat,allowed,
+hearing aid,allowed,
+heirloom,allowed,
 helmet,allowed,
+identification document,allowed,
+inflatable travel pillow,allowed,
 ipod,allowed,
+jacket,allowed,
+jandals,allowed,
+jeans,allowed,
+jewelry,allowed,
+jumper,allowed,
+key,allowed,
+lava lava,allowed,
 life vest,allowed,
+lip balm,allowed,
+lip pencil,allowed,
 lipstick,allowed,
+liquid eyeliner,allowed,
 luggage protection covers,allowed,
-makeup wipes,allowed,
 magnets,allowed,
+makeup wipes,allowed,
+manuscript,allowed,
+map,allowed,
+masacara,allowed,
 medical mask,allowed,
-mirror,allowed,
-nail filer,allowed,
+memory card,allowed,
+mints,allowed,
+mittens,allowed,
+mobile phone,allowed,
+money belt ,allowed,
+mosquito net,allowed,
+mp3 player,allowed,
+nail file,allowed,
+necklace,allowed,
 night vision goggles,allowed,
+notebook,allowed,
 nuts,allowed,
+pack of cards,allowed,
+pad,allowed,
 painting,allowed,
+pants,allowed,
+paper,allowed,
+passport,allowed,
+passport photos,allowed,
 pen,allowed,
-solid pet food,allowed,
+pencil,allowed,
+phone,allowed,
+phone card,allowed,
 phone charger,allowed,
-cake,allowed,
+phrase books,allowed,
 pillow,allowed,
 pizza,allowed,
 plant,allowed,
+plastic bags,allowed,
+poncho,allowed,
+pool shoes,allowed,
 powder,allowed,
+pyjamas,allowed,
+raincoat,allowed,
+ring,allowed,
 rope,allowed,
 safety pin,allowed,
 salt,allowed,
-selfie stick,allowed,
-sleeping bag,allowed,
-soap bar,allowed,
-solid candle,allowed,
-dry spices,allowed,
-stapler,allowed,
-stuffed animals,allowed,
-tampon,allowed,
+sandals,allowed,
+sanitary napkin,allowed,
 sanitary pad,allowed,
+sarong,allowed,
+scarf,allowed,
+selfie stick,allowed,
+sewing kit,allowed,
+shirt,allowed,
+shoe,allowed,
+shoes,allowed,
+shorts,allowed,
+shower shoes,allowed,
+sim card,allowed,
+ski clothes,allowed,
+ski glasses,allowed,
+skirt,allowed,
+sleep sheet,allowed,
+sleep-mask,allowed,
+sleeping bag,allowed,
+sleeping mat,allowed,
+sleepwear,allowed,
+slippers,allowed,
+sneaker,allowed,
+soap bar,allowed,
+sock,allowed,
+solid candle,allowed,
+solid pet food,allowed,
+speedo,allowed,
+spoon,allowed,
+stuffed animals,allowed,
+suit,allowed,
+suit bag,allowed,
+sunglasses,allowed,
+sweater,allowed,
+swim cap ,allowed,
+swimming gear,allowed,
+swimsuit,allowed,
+talcum,allowed,
+tampon,allowed,
 thermometer,allowed,
+thongs,allowed,
+tie,allowed,
+tissues,allowed,
+toilet paper,allowed,
 toothbrush,allowed,
+towel,allowed,
+toy,allowed,
+travellers' cheques ,allowed,
 trophy,allowed,
-pacemaker,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind! Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance): 2 wheelchairs 2 pairs of crutches and/or braces or any other prosthetic device
-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. 
-"
-electronic nerve stimulator,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
-2 wheelchairs
-2 pairs of crutches and/or braces or any other prosthetic device
-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. 
-"
-dry shampoo,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-power bank,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
-vitamin supplements,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity.
-"
-laptop,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
-prosthetic device,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
-2 wheelchairs
-2 pairs of crutches and/or braces or any other prosthetic device
-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. 
-"
-tablet,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
-e-reader,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
-calculator,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
-speaker,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
-pill,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity.
-"
-crutches,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
-2 wheelchairs
-2 pairs of crutches and/or braces or any other prosthetic device
-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. 
-"
-inhaler,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
-2 wheelchairs
-2 pairs of crutches and/or braces or any other prosthetic device
-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. 
-"
-hypodermic syringe,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Syringes for medical purposes are allowed through security but you must always carry a medical certificate stating the diagnosis and the required medication. Present this item and certificate at the security checkpoint.
-"
-contact lens solution,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-nail clipper,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in checked baggage. 
-"
-tweezers,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in checked baggage. 
-"
-knitting needle,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in checked baggage. 
-"
-alcohol beverage,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
+trousers,allowed,
+umbrella,allowed,
+underwear,allowed,
+usb flash drive,allowed,
+vegetable,allowed,
+visa,allowed,
+wallet,allowed,
+water purifying tablets,allowed,
+wet wipes,allowed,
+ziplock bags,allowed,
+camera,allowed ,
+acid spray,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+aerosol paint,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+animal repellent spray,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+animal stunner,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+arrow,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+axe,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+baseball bat,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+baton,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+blasting cap,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+blowtorch,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+bolt gun ,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+bow,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+box cutter,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+capsicum spray,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+catapult,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+chisel,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+cleaver,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+club,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+co2 gun ,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+compressed air gun,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+crampon,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+crossbows,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+crowbar,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+darts game,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+detonator,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+drill ,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+dynamite,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+firearm,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+firework ,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+fishing rod,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+fuse,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+golf club,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+grenade,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+gun,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+gunpowder,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+hammer,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+handcuffs,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+harpoon,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+hatchet,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+hiking stick,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+ice axe,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+ice pick,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+ice skate,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+imitation explosive device,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+incapacitating chemical,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+javelin,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+knife,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+leatherman tool,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+machete,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+mine,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+paddle,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+pellet gun,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+pepper spray,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+pistol,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+printer cartridge,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+razor blade,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+revolver,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+rifle,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+sabre,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+saw,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+screwdriver ,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+shotgun,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+signal flare pistol,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+slingshot,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+smoke generating canister,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+smoke generating cartridge,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+spear gun,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+sports parachute,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+starter pistol,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+stun gun,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+swiss army knife,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+sword,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+taser,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+tear gas,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+toy gun,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. 
+A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. "
+turpentine ,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
+The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned."
+moisturiser,waring,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
 All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
 All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+after sun cream,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+alcohol beverage,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+anti-bacterial cream,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 baby food,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
 Liquids and gels to nourish baby’s, do not need to meet the 100 ml liquid rule, but must be removed from your carry-on luggage, declared to screeners before going through security, and are subject to additional screening."
-baby formula,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Liquids and gels to nourish baby’s, do not need to meet the 100 ml liquid rule, but must be removed from your carry-on luggage, declared to screeners before going through security, and are subject to additional screening."
-baby wipes,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-All types of baby strollers, including baby backpacks, must be labeled at check-in. They may be used up to the aircraft entrance but will be folded and stored in the hold during the flight. Upon arrival at your final destination, the strollers will be delivered to you at the aircraft door.
-If you’ve booked a seat for your child, you can bring your own child seat on board if:
-you are using an approved car seat/child restraint device.
-you pass by our check-in desks to receive the approval.
-the device is in perfect working order.
-"
-baby powder,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Liquids and gels to nourish baby’s, do not need to meet the 100 ml liquid rule, but must be removed from your carry-on luggage, declared to screeners before going through security, and are subject to additional screening."
 blender,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. For the blender, the blades need to be removed.
-"
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. For the blender, the blades need to be removed."
 blood sugar test kit,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Syringes for medical purposes are allowed through security but you must always carry a medical certificate stating the diagnosis and the required medication. Present this item and certificate at the security checkpoint.
-"
-breast pump,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-All types of baby strollers, including baby backpacks, must be labeled at check-in. They may be used up to the aircraft entrance but will be folded and stored in the hold during the flight. Upon arrival at your final destination, the strollers will be delivered to you at the aircraft door.
-If you’ve booked a seat for your child, you can bring your own child seat on board if:
-you are using an approved car seat/child restraint device.
-you pass by our check-in desks to receive the approval.
-the device is in perfect working order.
-"
+Syringes for medical purposes are allowed through security but you must always carry a medical certificate stating the diagnosis and the required medication. Present this item and certificate at the security checkpoint."
+bottle,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Make sure the bottle is empty before going through security check. If your bottle is not empty, it needs to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 breast milk,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
 Liquids and gels to nourish baby’s, do not need to meet the 100 ml liquid rule, but must be removed from your carry-on luggage, declared to screeners before going through security, and are subject to additional screening."
+calculator,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. "
+cane,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
+-2 wheelchairs
+-2 pairs of crutches and/or braces or any other prosthetic device
+-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. "
 child car seat,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
 All types of baby strollers, including baby backpacks, must be labeled at check-in. They may be used up to the aircraft entrance but will be folded and stored in the hold during the flight. Upon arrival at your final destination, the strollers will be delivered to you at the aircraft door.
-If you’ve booked a seat for your child, you can bring your own child seat on board if:
-you are using an approved car seat/child restraint device.
-you pass by our check-in desks to receive the approval.
-the device is in perfect working order.
-"
+If you have booked a seat for your child, you can bring your own child seat on board if:
+-You are using an approved car seat/child restraint device.
+-You pass by our check-in desks to receive the approval.
+-The device is in perfect working order."
 cologne,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 concealer,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 conditioner,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-foundation,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
 All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
 All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-liquid eyeliner,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+contact lens solution,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
 All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
 All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 cream,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
 All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
 All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+crochet needle,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in hold baggage. "
+crutches,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
+-2 wheelchairs
+-2 pairs of crutches and/or braces or any other prosthetic device
+-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. "
 deodrant,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
 All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
 All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 digital cameras,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. "
+disinfectant hand gel,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+dry shampoo,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+e-reader,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
 electric fans,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
+electronic nerve stimulator,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
+-2 wheelchairs
+-2 pairs of crutches and/or braces or any other prosthetic device
+-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. "
 epipens,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Syringes for medical purposes are allowed through security but you must always carry a medical certificate stating the diagnosis and the required medication. Present this item and certificate at the security checkpoint.
-"
+Syringes for medical purposes are allowed through security but you must always carry a medical certificate stating the diagnosis and the required medication. Present this item and certificate at the security checkpoint."
 eyedrops,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity.
-"
+Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. 
+Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity."
 flashlight,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. "
+flute,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You can bring small to medium sized instruments as hand baggage as long as:
+-It falls within your free hand baggage allowance depending on your airline and flight ticket.
+-It can be stowed away in the overhead bin or underneath the seat in front of yours.
+Instruments that are too large to be stowed away in the overhead bin or underneath the seat in front of you can also be brought on board if you book an extra seat for them.
+Large instruments can only be transported in the hold."
+foundation,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+fruit juice,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 gaming consoles,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
 guitar,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You can bring a small instrument on board as hand baggage as long as:
-It falls within your free hand baggage allowance depending on your airline and flight ticket.
-It can be stowed away in the overhead bin or underneath the seat in front of yours.
-Medium-sized instruments
+You can bring small to medium sized instruments as hand baggage as long as:
+-It falls within your free hand baggage allowance depending on your airline and flight ticket.
+-It can be stowed away in the overhead bin or underneath the seat in front of yours.
 Instruments that are too large to be stowed away in the overhead bin or underneath the seat in front of you can also be brought on board if you book an extra seat for them.
 Large instruments can only be transported in the hold."
 hair dryer,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
 hair gel,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
 All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
 All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 hand sanitizer,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
 All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
 All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 headphones,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
+honey,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+hypodermic syringe,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Syringes for medical purposes are allowed through security but you must always carry a medical certificate stating the diagnosis and the required medication. Present this item and certificate at the security checkpoint."
+inhaler,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
+-2 wheelchairs
+-2 pairs of crutches and/or braces or any other prosthetic device
+-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. "
+insect repellent,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 insulin,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity.
-"
+Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. 
+Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity."
 insulin pumps,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
 Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
-2 wheelchairs
-2 pairs of crutches and/or braces or any other prosthetic device
-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. 
-"
+-2 wheelchairs
+-2 pairs of crutches and/or braces or any other prosthetic device
+-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. "
 insulin supplies,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity.
-"
+Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. 
+Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity."
+knitting needle,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in hold baggage."
+laptop,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
+laundry detergent,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 liquid medications,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity.
-"
+Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. 
+Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity."
 makeup remover,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-masacara,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+musquito repellent,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+nail clipper,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in hold baggage. "
 nail polish remover,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-cane,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
-2 wheelchairs
-2 pairs of crutches and/or braces or any other prosthetic device
-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. 
-"
-crochet needle,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in checked baggage. 
-"
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 navigation gps,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
 nebulizer,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Syringes for medical purposes are allowed through security but you must always carry a medical certificate stating the diagnosis and the required medication. Present this item and certificate at the security checkpoint.
-"
-radio,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
-shampoo,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-shaving cream,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-toothpaste,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-wheel chair,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Syringes for medical purposes are allowed through security but you must always carry a medical certificate stating the diagnosis and the required medication. Present this item and certificate at the security checkpoint."
+pacemaker,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
 Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
-2 wheelchairs
-2 pairs of crutches and/or braces or any other prosthetic device
-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. 
-"
-wine bottle,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
- All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
- All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-xbox,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening. 
-"
-yogurt,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
-All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
-All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-fruit juice,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to bring liquids, aerosols and gels, but they need to meet the following  restrictions:
-All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
-All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
-This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag.
-"
-knives ,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in checked baggage. 
-"
+-2 wheelchairs
+-2 pairs of crutches and/or braces or any other prosthetic device
+-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. "
+pill,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. 
+Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity."
+power bank,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
+prosthetic device,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
+-2 wheelchairs
+-2 pairs of crutches and/or braces or any other prosthetic device
+-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. "
+radio,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
+razors,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
 scissor,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in checked baggage. 
-"
+You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in hold baggage."
+shampoo,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+shaving cream,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+soap,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+speaker,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
+sunscreen,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+tablet,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
+toothpaste,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+torch,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
+tweezers,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to carry-on small tools like nail clippers, pill cutters, and small scissors with blades measuring 6 cm (2 inches) or less from the pivot point. All other tools should be securely wrapped (if sharp) and packed in hold baggage."
+vinegar,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
 violin,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
-You can bring a small instrument on board as hand baggage as long as:
-It falls within your free hand baggage allowance depending on your airline and flight ticket.
-It can be stowed away in the overhead bin or underneath the seat in front of yours.
-Medium-sized instruments
+You can bring small to medium sized instruments as hand baggage as long as:
+-It falls within your free hand baggage allowance depending on your airline and flight ticket.
+-It can be stowed away in the overhead bin or underneath the seat in front of yours.
 Instruments that are too large to be stowed away in the overhead bin or underneath the seat in front of you can also be brought on board if you book an extra seat for them.
 Large instruments can only be transported in the hold."
-blasting cap,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-detonator,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-imitation explosive device,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-mine,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-firework ,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-smoke generating canister,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-dynamite,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-gunpowder,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-plastic explosive,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-lighter,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-fuse,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-grenade,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-smoke generating cartridge,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-baseball bat,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-club,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-martial arts equipment,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-sports parachute,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-golf club,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-darts game,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-hiking stick,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-ice skate,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-fishing rod,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-crampon,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-javelin,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-catapult,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-sword,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-handcuffs,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-canoe,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-diving equipment,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-printer cartridge,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-baton,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-harpoon,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-paddle,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-axe,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-razor blade,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-box cutter,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-workmens tool,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-crowbar,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-screwdriver ,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-saw,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-blowtorch,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-bolt gun ,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-drill ,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-cutting mat,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-hammer,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-machete,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-aerosol paint,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-turpentine ,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-hatchet,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-cleaver,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-ice pick,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-sabre,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-cordless portable power drill,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-chisel,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-stun gun,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-animal stunner,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-taser,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-pepper spray,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-capsicum spray,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-tear gas,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-acid spray,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-animal repellent spray,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-animal killer,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-incapacitating chemical,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-pistol,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-toy gun,prohibited,"Your item is prohibited to take with you past the airport security checkpoint.
-This item is allowed in your hold baggage that is checked-in at the bag-drop counter before security. A person carrying this item after the airport security checkpoint is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned. 
-"
-firearm,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-compressed air gun,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-co2 gun ,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-signal flare pistol,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-bow,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-slingshot,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-revolver,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-rifle,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-shotgun,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-pellet gun,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-starter pistol,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-spear gun,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-arrow,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-crossbows,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-honey,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-liquid cheese,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-oil,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
-vinegar,prohibited,Your item is prohibited to take with you past the airport security checkpoint.The person carrying this item is considered to be a risk or threat to the security of the airport and the flight. Prohibited items detected at security control points will be discarded and will not be returned.
+vitamin supplements,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. 
+Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity."
+water bottle,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Make sure the bottle is empty before going through security check. If your bottle is not empty, it needs to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+wheel chair,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Passengers with reduced mobility or other health issues who depend on certain devices or medical equipment may carry the following items free of charge (in addition to the freehand luggage allowance):
+-2 wheelchairs
+-2 pairs of crutches and/or braces or any other prosthetic device
+-Medical equipment such as pacemakers, insulin pumps, electric neuron stimulator… needed during the flight. "
+xbox,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Electronic devices larger than 15 x 21 cm, including laptops, full-size video-game consoles, full-size DVD players... must be removed from their cases, placed in a separate bin, and screened individually at the security checkpoint. 
+Portable electronic items that are smaller than 15 x 21 cm, do not have to be removed from baggage during screening."
+yogurt,warning,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+You are allowed to bring liquids, aerosols and gels, but they need to meet the following restrictions:
+All of your liquids need to be in containers, smaller than 100 ml (3.4 oz)
+All of them together should fit inside a transparent, re-sealable, airtight bag, no bigger than 1 liter (34 oz). This transparent bag needs to be presented separately during security screening.
+This restriction does not apply to liquids that were purchased in the airside shops and packed in a security tamper-evident bag."
+diarrhoea tablet,warning ,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. 
+Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity."
+motion sickness tablets,warning ,"Your item is permitted past the security checkpoint but certain instructions need to be kept in mind!
+Medicines are allowed in your hand luggage. All prescription and over-the-counter medications can be carried past security checkpoint. 
+Due to the restrictions on liquids, it would be prohibited to take more than 100 ml of liquid medicine on board. Ask your doctor for a certificate to prove their necessity."
