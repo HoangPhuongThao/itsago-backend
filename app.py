@@ -22,6 +22,13 @@ def hello():
 
 
 @app.route("/home")
+@app.route("/api/test")
+def hello():
+    response = ["nothing found"]
+    return jsonify(response)
+
+
+@app.route("/api/home")
 def home():
     return render_template('home.html')
 
@@ -45,6 +52,8 @@ def upload_image():
             detect_objects(filename)
             os.remove(os.path.abspath('images/' + filename))
             response = parse_objectname()
+            if not response:
+                response = ["nothing found"]
             return jsonify(response)
     return render_template('upload_image.html')
 
@@ -66,11 +75,15 @@ def parse_objectname():
     api_response = open("detected_objects.txt", "r")
     lines = api_response.readlines()
     objects = []; scores = []; response = []
+    skip_score = False
     for line in lines:
         if "name" in line:
             object = re.search(r'"(.*?)"', line.split("name: ")[1]).group(1)
-            objects.append(object)
-        elif "score" in line:
+            if object not in objects:
+                objects.append(object)
+                skip_score = False
+            else: skip_score = True
+        elif skip_score == False and "score" in line:
             scores.append(re.match(r'score: (\d+(\.\d+)?)', line).group(1))
     api_response.close()
     for i in range(len(objects)):
