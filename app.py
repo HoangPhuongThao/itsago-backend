@@ -42,7 +42,7 @@ def upload_image():
             os.remove(os.path.abspath('images/' + filename))
             response = parse_objectname()
             if not response:
-                response = ["No item recognised! Please enter the item manually."]
+                response = ["nothing found"]
             return jsonify(response)
     return render_template('upload_image.html')
 
