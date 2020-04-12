@@ -31,7 +31,6 @@ def match(substring, only_start = False):
     results = []
     if len(matched_items) != 0:
         for data in matched_items:
-            print(data[2])
             m = re.search('.*?([!.])', data[2])
             if m is not None:
                 text = m.group()
