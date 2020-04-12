@@ -1,6 +1,7 @@
 import sqlite3
 import csv
 import json
+import re
 
 def insert(item):
     conn = sqlite3.connect('items.db')
@@ -30,10 +31,18 @@ def match(substring, only_start = False):
     results = []
     if len(matched_items) != 0:
         for data in matched_items:
+            m = re.search('.*?([!.])', data[2])
+            if m is not None:
+                text = m.group()
+                info = data[2][len(text):]
+            else:
+                text = ''
+                info = ''
             item = {
                 'name': data[0],
                 'classification': data[1],
-                'info': data[2]
+                'text': text,
+                'info': info
             }
             results.append(item)
     return json.dumps(results)

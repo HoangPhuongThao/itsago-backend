@@ -1,4 +1,5 @@
 images/*
+detected_objects.txt
 .DS_Store
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template

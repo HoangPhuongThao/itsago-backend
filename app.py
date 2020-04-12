@@ -8,6 +8,7 @@ from flask_cors import CORS
 from object_detection import detect_objects
 from database import match, get_all
 from synonyms import get_synonyms, find_syns_db
+import feedback
 
 UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 
@@ -70,6 +71,42 @@ def suggest():
         substring = request.args.get('text')
         suggestions = match(substring, only_start=True) # only match words starting with the substring
         return suggestions
+
+@app.route('/api/feedback', methods=['POST', 'GET'])
+def add_feedback():
+    if request.method == 'POST':
+        text = request.form.get('feedback')
+        feedback.process_feedback(text)
+        return 'feedback processed', 201
+    else:
+        return 'bad request', 400
+
+@app.route('/api/feedback/happy', methods=['POST', 'GET'])
+def happy_feedback():
+    if request.method == 'GET':
+        feedback.process_happy_feedback()
+        return 'feedback processed', 201
+    else:
+        return 'bad request', 400
+
+@app.route('/api/feedback/sad', methods=['POST', 'GET'])
+def sad_feedback():
+    if request.method == 'GET':
+        feedback.process_sad_feedback()
+        return 'feedback processed', 201
+    else:
+        return 'bad request', 400
+
+@app.route('/api/suggest_item', methods=['POST', 'GET'])
+def add_item():
+    if request.method == 'GET':
+        text = request.args.get('item')
+        feedback.process_unfound_item(text)
+        return 'item added', 201
+    else:
+        return 'bad request', 400
+
+
 
 def parse_objectname():
     api_response = open("detected_objects.txt", "r")
