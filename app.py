@@ -75,9 +75,25 @@ def add_feedback():
     else:
         return 'bad request', 400
 
+@app.route('/api/feedback/happy', methods=['POST', 'GET'])
+def happy_feedback():
+    if request.method == 'GET':
+        feedback.process_happy_feedback()
+        return 'feedback processed', 201
+    else:
+        return 'bad request', 400
+
+@app.route('/api/feedback/sad', methods=['POST', 'GET'])
+def sad_feedback():
+    if request.method == 'GET':
+        feedback.process_sad_feedback()
+        return 'feedback processed', 201
+    else:
+        return 'bad request', 400
+
 @app.route('/api/suggest_item', methods=['POST', 'GET'])
 def add_item():
-    if request.method == 'POST':
+    if request.method == 'GET':
         text = request.args.get('item')
         feedback.process_unfound_item(text)
         return 'item added', 201
