@@ -1,30 +1,29 @@
-from pathlib import Path
+import sqlite3
+import json
 
 
-def process_feedback(text):
-    Path("feedback").mkdir(parents=True, exist_ok=True)
-    with open("feedback/feedback.txt", 'a+') as file:
-        file.write('==============================================\n')
-        file.write(text)
-        file.write('\n\n')
+def process_feedback(rank, text):
+    conn = sqlite3.connect('feedback.db')
+    c = conn.cursor()
+    with conn:
+        c.execute("INSERT INTO rank_feedback VALUES (:rank, :text)", {'rank': rank, 'text': text})
 
 def process_unfound_item(text):
-    Path("feedback").mkdir(parents=True, exist_ok=True)
-    with open("feedback/suggested_items.txt", 'a+') as file:
-        file.write('==============================================\n')
-        file.write(text)
-        file.write('\n\n')
+    conn = sqlite3.connect('feedback.db')
+    c = conn.cursor()
+    with conn:
+        c.execute("INSERT INTO notfound_feedback VALUES (:text)", {'text': text})
 
-def process_happy_feedback():
-    Path("feedback").mkdir(parents=True, exist_ok=True)
-    with open("feedback/happy.txt", 'a+') as file:
-        file.write('happy\n')
+def retrieve_all(table):
+    conn = sqlite3.connect('feedback.db')
+    c = conn.cursor()
+    c.execute("SELECT * FROM '{}'".format(table))
+    data = c.fetchall();
+    return json.dumps(data)
 
-def process_sad_feedback():
-    Path("feedback").mkdir(parents=True, exist_ok=True)
-    with open("feedback/sad.txt", 'a+') as file:
-        file.write('sad\n')
-
-
-
+def remove(table):
+    conn = sqlite3.connect('feedback.db')
+    c = conn.cursor()
+    with conn:
+        c.execute("DELETE from '{}'".format(table), {'text': "piano keyboard"})
 
