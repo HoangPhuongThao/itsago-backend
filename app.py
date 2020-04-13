@@ -85,6 +85,14 @@ def add_item():
     else:
         return 'bad request', 400
 
+@app.route('/api/get_feedback', methods=['GET'])
+def get_feedback():
+    return feedback.retrieve_all('rank_feedback'), 200
+
+@app.route('/api/get_suggested_items', methods=['GET'])
+def get_suggestions():
+    return feedback.retrieve_all('notfound_feedback'), 200
+
 def parse_objectname():
     api_response = open("detected_objects.txt", "r")
     lines = api_response.readlines()
