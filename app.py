@@ -99,8 +99,8 @@ def parse_objectname():
     objects = []; scores = []; response = []
     skip_score = False
     for line in lines:
-        if "name" in line:
-            object = re.search(r'"(.*?)"', line.split("name: ")[1]).group(1)
+        if "description" in line:
+            object = re.search(r'"(.*?)"', line.split("description: ")[1]).group(1)
             if object not in objects:
                 objects.append(object)
                 skip_score = False
