@@ -36,7 +36,6 @@ def display_number_requests():
 def upload_image():
     # Check current number of requests
     number_requests = get_number_requests()
-    print(number_requests)
     if number_requests == 8000:
         return jsonify(["Limit for number of requests exceeded!"])
 
