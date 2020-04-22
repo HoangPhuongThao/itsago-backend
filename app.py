@@ -63,7 +63,7 @@ def searchbar():
 def suggest():
     if request.method == 'GET':
         substring = request.args.get('text')
-        suggestions = match(substring, only_start=True) # only match words starting with the substring
+        suggestions = match(substring, match_whole_substring=False) # only match words starting with the substring
         return suggestions
 
 @app.route('/api/feedback', methods=['POST', 'GET'])
