@@ -20,13 +20,13 @@ def get_all():
         results.append(item[0])
     return json.dumps(results)
 
-def match(substring, only_start = False):
+def match(substring, match_whole_substring=True):
     conn = sqlite3.connect('items.db')
     c = conn.cursor()
-    if only_start:
-        c.execute("SELECT * FROM items WHERE name LIKE '{}%'".format(substring))
+    if match_whole_substring:
+        c.execute("SELECT * FROM items WHERE name LIKE '{}'".format(substring))
     else:
-        c.execute("SELECT * FROM items WHERE name LIKE '%{}%'".format(substring))
+        c.execute("SELECT * FROM items WHERE name LIKE '{}%'".format(substring))
     matched_items = c.fetchall()
     results = []
     if len(matched_items) != 0:
@@ -58,7 +58,7 @@ def remove(item_name):
 # Importing items from csv file
 #
 # with open('list_of_items.csv', 'r+', encoding="utf-8") as csv_file:
-#     csv_reader = csv.reader(csv_file, delimiter=',', quotechar='"')
+#     csv_reader = csv.reader(csv_file, delimiter=';', quotechar='"')
 #     for row in csv_reader:
 #         new_item = {
 #             'name': row[0],
@@ -66,4 +66,3 @@ def remove(item_name):
 #             'info': row[2]
 #         }
 #         insert(new_item)
-

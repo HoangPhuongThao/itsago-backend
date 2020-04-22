@@ -10,6 +10,7 @@ from database import match, get_all
 from synonyms import get_synonyms, find_syns_db
 import feedback
 
+
 UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 
 app = Flask(__name__)
@@ -28,13 +29,22 @@ def nothing():
     response = ["nothing found"]
     return jsonify(response)
 
-
 @app.route("/api/home")
 def home():
     return render_template('home.html')
 
+@app.route("/api/number_requests")
+def display_number_requests():
+    num_requests = get_number_requests()
+    return jsonify(num_requests)
+
 @app.route("/api/upload_image", methods=['GET', 'POST'])
 def upload_image():
+    # Check current number of requests
+    number_requests = get_number_requests()
+    if number_requests == 8000:
+        return jsonify(["Limit for number of requests exceeded!"])
+
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:
@@ -69,7 +79,7 @@ def searchbar():
 def suggest():
     if request.method == 'GET':
         substring = request.args.get('text')
-        suggestions = match(substring, only_start=True) # only match words starting with the substring
+        suggestions = match(substring, match_whole_substring=False) # only match words starting with the substring
         return suggestions
 
 @app.route('/api/feedback', methods=['POST', 'GET'])
@@ -123,6 +133,18 @@ def parse_objectname():
 
 def random_generator(size=10, chars=string.ascii_lowercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
+
+def get_number_requests():
+    with open("number_requests.txt", "r+") as number_requests_file:
+        content = number_requests_file.readline()
+        number_requests = int(content)
+        if number_requests == 8000:
+            return 8000
+        else:
+            number_requests_file.seek(0)
+            number_requests_file.write(str(number_requests+1))
+            number_requests_file.truncate()
+            return number_requests+1
 
 if __name__ == '__main__':
     app.run(debug=True)

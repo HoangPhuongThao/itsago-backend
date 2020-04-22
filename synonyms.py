@@ -41,7 +41,7 @@ def check_similarity(word1, word2):
     except WordNetError:
         return 0
 
-def find_similar(input, threshold=0.7):
+def find_similar(input, threshold=0.8):
     db_items = json.loads(get_all())
     max_score = threshold
     similar_word = ''
