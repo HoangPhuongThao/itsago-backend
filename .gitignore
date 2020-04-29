@@ -1,6 +1,7 @@
 images/*
 detected_objects.txt
 .DS_Store
+feedbakck.db
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
