@@ -3,9 +3,11 @@ import csv
 import json
 import re
 
+conn = sqlite3.connect('items.db')
+c = conn.cursor()
+
 def insert(item):
-    conn = sqlite3.connect('items.db')
-    c = conn.cursor()
+
     with conn:
         c.execute("INSERT INTO items VALUES (:name, :classification, :info)",
                   {'name': item['name'], 'classification': item['classification'], 'info': item['info']})
