@@ -3,6 +3,7 @@ import csv
 import json
 import re
 
+
 def insert(item):
     conn = sqlite3.connect('items.db')
     c = conn.cursor()

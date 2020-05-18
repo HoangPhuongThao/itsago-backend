@@ -30,7 +30,8 @@ def get_synonyms(word):
 
 def find_syns_db(syns):
     for syn in syns:
-        if len(match(syn)) > 0:
+        result = json.loads(match(syn))
+        if len(result) > 0:
             return match(syn)
 
 def check_similarity(word1, word2):
@@ -56,8 +57,6 @@ def find_similar(input, threshold=0.8):
     return []
 
 if __name__ == '__main__':
-    # syns = get_synonyms("bottle")
-    # print(syns)
-    # print(find_syns_db(syns))
-    print(find_similar('bottle'))
-
+    syns = get_synonyms('apparel')
+    print(syns)
+    print(find_syns_db(syns))
