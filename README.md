@@ -9,7 +9,9 @@ This is a backend for Itsago app - Luggage checking using Flask Python.
 ```pip install -r requirements.txt```.
 If you don't have pip, install it first.
 
-3. Run this code for the first time using NLTK library
+3. To be able to run Google Vision Cloud API for object detection, acquire your own api key and set up the authentication in a prepared json file ```auth.json```. More info how to do it can be found here: https://cloud.google.com/vision/docs/setup
+
+4. Run this code for the first time using NLTK library
 ```
 import nltk
 import ssl
@@ -24,8 +26,8 @@ else:
 nltk.download()
 ```
 
-4. Run the script:
+5. Run the script:
 ```python app.py```
 
-5. This is only the backend of the ITSAGO application, the frontend also has to be run to get the full functionality. Link to frontend: 
+6. This is only the backend of the ITSAGO application, the frontend also has to be run to get the full functionality. Link to frontend: 
 ttps://github.com/jorensjongers/itsago-frontend
