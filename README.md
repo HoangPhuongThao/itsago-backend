@@ -30,4 +30,4 @@ nltk.download()
 ```python app.py```
 
 6. This is only the backend of the ITSAGO application, the frontend also has to be run to get the full functionality. Link to frontend: 
-ttps://github.com/jorensjongers/itsago-frontend
+https://github.com/jorensjongers/itsago-frontend
