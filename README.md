@@ -28,8 +28,10 @@ nltk.download()
 
 5. Initiate a feedback database with this code snippet:
 ```
-conn = sqlite3.connect('feedback.db')
+import sqlite3
 
+
+conn = sqlite3.connect('feedback.db')
 c = conn.cursor()
 
 c.execute("""CREATE TABLE requests (
