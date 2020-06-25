@@ -26,8 +26,30 @@ else:
 nltk.download()
 ```
 
-5. Run the script:
+5. Initiate a feedback database with this code snippet:
+```
+conn = sqlite3.connect('feedback.db')
+
+c = conn.cursor()
+
+c.execute("""CREATE TABLE requests (
+            n_requests integer
+            )""")
+
+c.execute("""CREATE TABLE notfound_feedback (
+            text text
+            )""")
+
+c.execute("""CREATE TABLE rank_feedback (
+            rank integer,
+            text text
+            )""")
+
+conn.close()
+```
+
+6. Run the script:
 ```python app.py```
 
-6. This is only the backend of the ITSAGO application, the frontend also has to be run to get the full functionality. Link to frontend: 
+7. This is only the backend of the ITSAGO application, the frontend also has to be run to get the full functionality. Link to frontend: 
 https://github.com/jorensjongers/itsago-frontend
