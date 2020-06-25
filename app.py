@@ -16,7 +16,7 @@ UPLOAD_FOLDER = os.path.dirname(os.path.realpath(__file__)) + '/images'
 app = Flask(__name__)
 CORS(app)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.config['SECRET_KEY'] = 'pXuUdktb5IAHe_xbzqEiCA'
+app.config['SECRET_KEY'] = '' # generate your secret key
 
 @app.route("/api/test")
 def hello():
@@ -34,13 +34,6 @@ def display_number_requests():
 
 @app.route("/api/upload_image", methods=['GET', 'POST'])
 def upload_image():
-    # Check current number of requests
-    number_requests = feedback.get_nRequests()
-    if number_requests == 8000:
-        return jsonify(["Limit for number of requests exceeded!"])
-    else:
-        feedback.update_nRequests()
-        print(feedback.get_nRequests())
 
     if request.method == 'POST':
         # check if the post request has the file part
